@@ -19,7 +19,7 @@ class Channel(models.Model):
     channel_url = models.URLField(null=False)
 
     def __str__(self):
-        return f"{self.channel_id}: {self.channel_url}"
+        return f"{self.channel_id}: {self.display_name} {self.channel_url}"
 
 class Userchannel(models.Model):
     userchannel_id = models.AutoField(primary_key=True)
