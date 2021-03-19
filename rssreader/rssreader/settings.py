@@ -83,7 +83,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'db_rssreader',
         'USER': 'root',
-        'PASSWORD': 'Jukenhouhakke64!',
+        'PASSWORD': '******************',
         'HOST': 'localhost',
         'PORT': '3306',
     }
